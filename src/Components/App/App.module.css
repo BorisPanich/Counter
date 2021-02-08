@@ -1,0 +1,42 @@
+.App {
+    background-color: azure;
+    padding: 300px;
+    display: flex;
+    border: black;
+}
+
+/*.App > div {*/
+/*    margin-right: 50px;*/
+/*}*/
+
+.wrapper {
+    border: 1px solid firebrick;
+    display: block;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+}
+
+.wrapper .displayCount {
+    border: 1px solid black;
+    background-color: #d3ff77;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper .displayCount .red {
+    border: 1px solid black;
+    background-color: #d3ff77;
+    text-align: center;
+    color: red;
+}
+
+
+.wrapper .wrapperButton {
+    border: 1.5px solid black;
+    background-color: #ffd726;
+    text-align: center;
+    padding: 20px;
+    padding-right: 20px;
+}
+
