@@ -15,9 +15,7 @@ export function ResultButton(props: ButtonsPropsType) {
 
     return (
         <div className={s.wrapper}>
-            <div className={s.displayCount}>
-                <DisplayCount value={props.count} />
-            </div>
+            <DisplayCount value={props.count}/>
             <div className={s.wrapperButton}>
                 <Buttons title={'inc'}
                          onClick={props.addCountHandler}

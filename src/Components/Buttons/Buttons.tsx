@@ -1,5 +1,4 @@
 import React from 'react';
-import s from '../App/App.module.css';
 
 type ButtonsType = {
     title: string
@@ -9,7 +8,7 @@ type ButtonsType = {
 
 export function Buttons(props: ButtonsType) {
 
-    return <button className={props.disabled === true ? 'btnDisabled' : ''}
+    return <button className={props.disabled === true ? 'wrapperButton' : ''}
                    onClick={props.onClick}
                    disabled={props.disabled}
     >

@@ -7,9 +7,9 @@ export type CountValuePropsType = {
 }
 
 export const DisplayCount = (props: CountValuePropsType) => {
-    const displayClass = `${props.value === maxValue ? 'wrapper display red' : 'wrapper display'}`
+    const displayClass = `${props.value === maxValue ? s.red : s.displayCount}`
     return (
-        <div className={s.displayClass}>
+        <div className={displayClass}>
             {props.value}
         </div>
     )
