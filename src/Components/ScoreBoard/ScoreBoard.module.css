@@ -1,0 +1,31 @@
+.windowWithNumber {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    /*line-height: 150px;*/
+    border-radius: 20px;
+    /*text-align: center;*/
+    /*align-self: stretch;*/
+    margin: 15px;
+    font-size: 80px;
+}
+
+.forNumber {
+    display: inline-block;
+}
+
+.endNumber {
+    color: #fa4343;
+}
+
+.messageStyle {
+    font-size: 25px;
+}
+
+.messageStyleError {
+    font-size: 25px;
+    color: #fa4343;
+}
